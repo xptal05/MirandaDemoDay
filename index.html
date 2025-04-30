@@ -13,23 +13,42 @@
 	<nav>
 		<a href="#"><img src="" alt="LOGO"></a>
 		<div class="main-menu">
-			<div class="submenu-parent"><a href="#">Produkty <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.5 5.25 7 8.75l3.5-3.5" stroke="#000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+			<div class="submenu-parent"><a href="#">Produkty <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path d="M3.5 5.25 7 8.75l3.5-3.5" stroke="#000" stroke-width="1.2" stroke-linecap="round"
+							stroke-linejoin="round" />
+					</svg></a>
 				<div class="submenu">list produktů</div>
 			</div>
 			<a href="#">Akční nabídka</a>
 			<a href="#">Kontakt</a>
 			<a href="#">O nás</a>
 		</div>
-		<div><input type="text" placeholder="Napište, co hledáte"><span>LUPA</span></div>
+		<div class="search-container">
+			<input class="desktop" type="text" placeholder="Napište, co hledáte">
+			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16m10 2-4.35-4.35" stroke="#000" stroke-width="1.5"
+					stroke-linecap="round" stroke-linejoin="round" />
+			</svg>
+		</div>
 		<div class="desktop">
 			<div class="submenu-parent">
-				<div>CZK <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.5 5.25 7 8.75l3.5-3.5" stroke="#000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+				<div>CZK <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M3.5 5.25 7 8.75l3.5-3.5" stroke="#000" stroke-width="1.2" stroke-linecap="round"
+							stroke-linejoin="round" />
+					</svg></div>
 				<div class="submenu">List currency</div>
 			</div>
 
 		</div>
-		<a  class="basket-btn" href="#">Košík<span class="basket-product-count">2</span></a>
-		<a href="#" class="desktop account-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.271 18.346S6.5 15.5 12 15.5s7.73 2.846 7.73 2.846M12 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+		<a class="basket-btn" href="#">Košík<span class="basket-product-count">2</span></a>
+		<a href="#" class="desktop account-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+				xmlns="http://www.w3.org/2000/svg">
+				<path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2" stroke="#000"
+					stroke-linecap="round" stroke-linejoin="round" />
+				<path d="M4.271 18.346S6.5 15.5 12 15.5s7.73 2.846 7.73 2.846M12 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+					stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
+			</svg></a>
 		<div class="burger mobile">
 			<span></span>
 			<span></span>
@@ -72,7 +91,7 @@
 			<H2>Vyberte si z naši nabídky</H2>
 			<div class="card-wrapper">
 				<div class="card">
-					<img src="assets/img/product_type_1.jpg">
+					<img class="img-top-right" src="assets/img/product_type_1.jpg">
 					<div class="card-subtitle">Investiční</div>
 					<div class="card-title">Zlaté mince</div>
 				</div>
@@ -83,6 +102,7 @@
 				</div>
 				<div class="card">
 					<img src="assets/img/product_type_3.jpg">
+					<div class="img-w-linear"></div>
 					<div class="card-subtitle">Investiční</div>
 					<div class="card-title">Zlaté slitky</div>
 				</div>
@@ -92,13 +112,18 @@
 					<div class="card-title">Zlaté mince ČNB</div>
 				</div>
 			</div>
-			<a class="btn-align-right" href="#"><button class="accent-btn">Zobrazit více -></button></a>
+			<a class="btn-align-right" href="#"><button class="accent-btn">Zobrazit více <svg width="31" height="16"
+						viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="m22 15 8-7-8-7" stroke="#131313" stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M30 8H1z" fill="#131313" />
+						<path d="M30 8H1" stroke="#131313" stroke-linecap="round" stroke-linejoin="round" />
+					</svg></button></a>
 		</div>
 		<div class="product-section">
 			<div class="product-filter">
 				<div class="selected">Novinky</div>
-				<div>Nejprodávanější</div>
-				<div>Doporučené</div>
+				<div class="desktop">Nejprodávanější</div>
+				<div class="desktop">Doporučené</div>
 			</div>
 			<div class="product-wrapper">
 			</div>
@@ -113,85 +138,130 @@
 			<div class="card">
 				<img src="assets/img/blog_1.jpg">
 				<div class="card-date">20.12.2021</div>
-				<div class="card-title">Lorem Ipsum</div>
+				<div class="card-title">
+					Lorem Ipsum
+					<svg width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="m22 15 8-7-8-7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M30 8H1z" fill="#FFFFFF" />
+						<path d="M30 8H1" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</div>
 				<div class="card-info-wrapper card-subtitle">
-					<div class="blog-author"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-							<path d="M11 1C5.477 1 1 5.477 1 11s4.477 10 10 10 10-4.477 10-10S16.523 1 11 1"
-								stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
-							<path
-								d="M3.271 17.346S5.5 14.5 11 14.5s7.73 2.846 7.73 2.846M11 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-								stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
-						</svg></div>
+					<svg class="blog-author" width="22" height="22" viewBox="0 0 22 22" fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path d="M11 1C5.477 1 1 5.477 1 11s4.477 10 10 10 10-4.477 10-10S16.523 1 11 1" stroke="#fff"
+							stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M3.271 17.346S5.5 14.5 11 14.5s7.73 2.846 7.73 2.846M11 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+							stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+					<div class="blog-author-data">Lukáš</div>
+					<div>|</div>
 					<div class="blog-comments">0 Comments</div>
 				</div>
 			</div>
 			<div class="card">
 				<img src="assets/img/blog_2.jpg">
 				<div class="card-date">20.12.2021</div>
-				<div class="card-title">Lorem Ipsum</div>
+				<div class="card-title">
+					Lorem Ipsum
+					<svg width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="m22 15 8-7-8-7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M30 8H1z" fill="#FFFFFF" />
+						<path d="M30 8H1" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</div>
 				<div class="card-info-wrapper card-subtitle">
-					<div class="blog-author"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-							<path d="M11 1C5.477 1 1 5.477 1 11s4.477 10 10 10 10-4.477 10-10S16.523 1 11 1"
-								stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
-							<path
-								d="M3.271 17.346S5.5 14.5 11 14.5s7.73 2.846 7.73 2.846M11 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-								stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
-						</svg></div>
+					<svg class="blog-author" width="22" height="22" viewBox="0 0 22 22" fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path d="M11 1C5.477 1 1 5.477 1 11s4.477 10 10 10 10-4.477 10-10S16.523 1 11 1" stroke="#fff"
+							stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M3.271 17.346S5.5 14.5 11 14.5s7.73 2.846 7.73 2.846M11 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+							stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+					<div class="blog-author-data">Lukáš</div>
+					<div>|</div>
 					<div class="blog-comments">0 Comments</div>
 				</div>
 			</div>
 			<div class="card">
 				<img src="assets/img/blog_3.jpg">
 				<div class="card-date">20.12.2021</div>
-				<div class="card-title">Lorem Ipsum</div>
+				<div class="card-title">
+					Lorem Ipsum
+					<svg width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="m22 15 8-7-8-7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M30 8H1z" fill="#FFFFFF" />
+						<path d="M30 8H1" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</div>
 				<div class="card-info-wrapper card-subtitle">
-					<div class="blog-author"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-							<path d="M11 1C5.477 1 1 5.477 1 11s4.477 10 10 10 10-4.477 10-10S16.523 1 11 1"
-								stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
-							<path
-								d="M3.271 17.346S5.5 14.5 11 14.5s7.73 2.846 7.73 2.846M11 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-								stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
-						</svg></div>
+					<svg class="blog-author" width="22" height="22" viewBox="0 0 22 22" fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path d="M11 1C5.477 1 1 5.477 1 11s4.477 10 10 10 10-4.477 10-10S16.523 1 11 1" stroke="#fff"
+							stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M3.271 17.346S5.5 14.5 11 14.5s7.73 2.846 7.73 2.846M11 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+							stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+					<div class="blog-author-data">Lukáš</div>
+					<div>|</div>
 					<div class="blog-comments">0 Comments</div>
 				</div>
 			</div>
 			<div class="card">
 				<img src="assets/img/blog_4.jpg">
 				<div class="card-date">20.12.2021</div>
-				<div class="card-title">Lorem Ipsum</div>
+				<div class="card-title">
+					Lorem Ipsum
+					<svg width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="m22 15 8-7-8-7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M30 8H1z" fill="#FFFFFF" />
+						<path d="M30 8H1" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</div>
 				<div class="card-info-wrapper card-subtitle">
-					<div class="blog-author"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-							<path d="M11 1C5.477 1 1 5.477 1 11s4.477 10 10 10 10-4.477 10-10S16.523 1 11 1"
-								stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
-							<path
-								d="M3.271 17.346S5.5 14.5 11 14.5s7.73 2.846 7.73 2.846M11 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-								stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
-						</svg></div>
+					<svg class="blog-author" width="22" height="22" viewBox="0 0 22 22" fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path d="M11 1C5.477 1 1 5.477 1 11s4.477 10 10 10 10-4.477 10-10S16.523 1 11 1" stroke="#fff"
+							stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M3.271 17.346S5.5 14.5 11 14.5s7.73 2.846 7.73 2.846M11 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+							stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+					<div class="blog-author-data">Lukáš</div>
+					<div>|</div>
 					<div class="blog-comments">0 Comments</div>
 				</div>
 			</div>
 			<div class="card">
 				<img src="assets/img/blog_5.jpg">
 				<div class="card-date">20.12.2021</div>
-				<div class="card-title">Lorem Ipsum</div>
+				<div class="card-title">
+					Lorem Ipsum
+					<svg width="31" height="16" viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="m22 15 8-7-8-7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M30 8H1z" fill="#FFFFFF" />
+						<path d="M30 8H1" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+				</div>
 				<div class="card-info-wrapper card-subtitle">
-					<div class="blog-author"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"
-							xmlns="http://www.w3.org/2000/svg">
-							<path d="M11 1C5.477 1 1 5.477 1 11s4.477 10 10 10 10-4.477 10-10S16.523 1 11 1"
-								stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
-							<path
-								d="M3.271 17.346S5.5 14.5 11 14.5s7.73 2.846 7.73 2.846M11 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
-								stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
-						</svg></div>
+					<svg class="blog-author" width="22" height="22" viewBox="0 0 22 22" fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path d="M11 1C5.477 1 1 5.477 1 11s4.477 10 10 10 10-4.477 10-10S16.523 1 11 1" stroke="#fff"
+							stroke-linecap="round" stroke-linejoin="round" />
+						<path d="M3.271 17.346S5.5 14.5 11 14.5s7.73 2.846 7.73 2.846M11 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+							stroke="#fff" stroke-linecap="round" stroke-linejoin="round" />
+					</svg>
+					<div class="blog-author-data">Lukáš</div>
+					<div>|</div>
 					<div class="blog-comments">0 Comments</div>
 				</div>
 			</div>
 		</div>
-		<a href="#" class="btn-align-right"><button class="accent-btn">Zobrazit více -></button></a>
+		<a href="#" class="btn-align-right"><button class="accent-btn">Zobrazit více <svg width="31" height="16"
+					viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="m22 15 8-7-8-7" stroke="#131313" stroke-linecap="round" stroke-linejoin="round" />
+					<path d="M30 8H1z" fill="#131313" />
+					<path d="M30 8H1" stroke="#131313" stroke-linecap="round" stroke-linejoin="round" />
+				</svg></button></a>
 
 	</section>
 	<section class="our-advantages-section">
@@ -219,7 +289,12 @@
 		<h2>Zůstaňtě s námi v kontaktu</h2>
 		<form>
 			<input type="text" placeholder="@Zadejte svůj email">
-			<button class="inverted" type="submit">Odoslať -></button>
+			<button class="inverted" type="submit">Odoslať <svg width="31" height="16"
+				viewBox="0 0 31 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="m22 15 8-7-8-7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+				<path d="M30 8H1z" fill="#FFFFFF" />
+				<path d="M30 8H1" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" />
+			</svg></button>
 		</form>
 		<div class="contact-section-background">
 			<svg width="544" height="544" viewBox="0 0 544 544" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -271,7 +346,7 @@
 		</div>
 		<div class="footer-copy-wrapper">
 			<div>Copyright 2021 Constant Invest</div>
-			<div>vytvoril Shoptet | <span><img src="#" alt="MirandaMedia Group Logo"></span>MirandaMedia Group, s.r.o.
+			<div class="footer-created-by">vytvoril Shoptet | <span><img src="assets/img/miranda-logo.png" alt="MirandaMedia Group Logo" height="20"></span> MirandaMedia Group, s.r.o.
 			</div>
 		</div>
 	</footer>
